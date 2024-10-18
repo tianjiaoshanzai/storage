@@ -1,0 +1,92 @@
+
+2024-10-18 13:49:56.580  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  process name:com.iflytek.voicedemo
+2024-10-18 13:49:56.581  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  process name:com.iflytek.voicedemois own process
+2024-10-18 13:49:56.619  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  loadLibrary msc success
+2024-10-18 13:49:56.625  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  SpeechUtility start login
+2024-10-18 13:49:56.627  2381-2381  TetheringManager        com.iflytek.voicedemo                I  registerTetheringEventCallback:com.iflytek.voicedemo
+2024-10-18 13:49:56.646  2381-2381  MSC_LOG                 com.iflytek.voicedemo                D  QMSPGetVersion Begin
+2024-10-18 13:49:56.649  2381-2381  MSC_LOG                 com.iflytek.voicedemo                D  QMSPGetVersion End
+2024-10-18 13:49:56.651  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  get msc full version name: 5.0.44.1291
+2024-10-18 13:49:56.656  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  create file:.2F6E2C5B63F0F83B
+2024-10-18 13:49:56.673  2381-2381  MSC_LOG                 com.iflytek.voicedemo                D  QMSPLogin Begin
+2024-10-18 13:49:56.938  2381-2381  MSC_LOG                 com.iflytek.voicedemo                D  QMSPLogin End
+2024-10-18 13:49:56.938  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  [MSPLogin]ret:0
+2024-10-18 13:49:56.940  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  DC init enable=null
+2024-10-18 13:49:56.970  2381-2381  lytek.voicedem          com.iflytek.voicedemo                I  Waiting for a blocking GC ClassLinker
+2024-10-18 13:49:56.978  2381-2381  lytek.voicedem          com.iflytek.voicedemo                I  WaitForGcToComplete blocked ClassLinker on ProfileSaver for 7.710ms
+2024-10-18 13:49:56.987  2381-2381  AsrDemo                 com.iflytek.voicedemo                D  SpeechRecognizer init() code = 0
+2024-10-18 13:49:59.219  2381-2381  MscSpeechLog            com.iflytek.voicedemo                E  SpeechRecognizer cancel failed, is not running
+2024-10-18 13:49:59.219  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  Destory asr engine.
+2024-10-18 13:49:59.222  2381-2381  MSC_LOG                 com.iflytek.voicedemo                D  QMSPSetParam Begin
+2024-10-18 13:49:59.223  2381-2381  MSC_LOG                 com.iflytek.voicedemo                D  QMSPSetParam End
+2024-10-18 13:50:00.010  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  MSC ifly ver: true
+2024-10-18 13:50:00.107  2381-2381  IatDemo                 com.iflytek.voicedemo                D  SpeechRecognizer init() code = 0
+2024-10-18 13:50:02.573  2381-2381  IatDemo                 com.iflytek.voicedemo                E  language = zh_cn
+2024-10-18 13:50:02.573  2381-2381  IatDemo                 com.iflytek.voicedemo                E  last language:zh_cn
+2024-10-18 13:50:02.593  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  startRecognizing
+2024-10-18 13:50:02.593  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  start engine mode = MSC
+2024-10-18 13:50:02.594  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  mSpeechTimeOut=60000
+2024-10-18 13:50:02.594  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  start request music_stream focus
+2024-10-18 13:50:02.595  2381-2381  AudioManager            com.iflytek.voicedemo                W  Use of stream types is deprecated for operations other than volume control
+2024-10-18 13:50:02.595  2381-2381  AudioManager            com.iflytek.voicedemo                W  See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+2024-10-18 13:50:02.606  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  [isr]startListening called
+2024-10-18 13:50:02.613  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  curStatus=init,setStatus=start
+2024-10-18 13:50:02.613  2381-2381  MscSpeechLog            com.iflytek.voicedemo                D  setStatus success=start
+2024-10-18 13:50:02.613  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  [isr]start connecting
+2024-10-18 13:50:02.621  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  [isr]start  record
+2024-10-18 13:50:02.625  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  onBeginOfSpeech
+2024-10-18 13:50:02.625  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  QISRSessionBegin begin, grammar: null
+2024-10-18 13:50:02.627  2381-2381  Compatibil...geReporter com.iflytek.voicedemo                D  Compat change id reported: 147798919; UID 10154; state: ENABLED
+2024-10-18 13:50:02.631  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRSessionBegin Begin
+2024-10-18 13:50:02.711  2381-6943  MscSpeechLog            com.iflytek.voicedemo                D  SampleRate:16000
+                                                                                                    Channel:2
+                                                                                                    Format:2
+                                                                                                    FramePeriod:640
+                                                                                                    BufferSize:5120
+                                                                                                    MinBufferSize:960
+                                                                                                    ActualBufferSize:1280
+2024-10-18 13:50:02.815  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRSessionBegin End
+2024-10-18 13:50:02.815  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  QISRSessionBegin end: 0 time:190
+2024-10-18 13:50:02.815  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRRegisterNotify Begin
+2024-10-18 13:50:02.842  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRRegisterNotify Findclass
+2024-10-18 13:50:02.856  2381-2381  lytek.voicedemo         com.iflytek.voicedemo                W  type=1400 audit(0.0:667): avc: denied { search } for name="net" dev="sysfs" ino=5058 scontext=u:r:untrusted_app:s0:c154,c256,c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0 app=com.iflytek.voicedemo
+2024-10-18 13:50:02.858  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRRegisterNotify GetstaticMethodID
+2024-10-18 13:50:02.887  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRRegisterNotify Get sessionID
+2024-10-18 13:50:02.887  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRRegisterNotify start call
+2024-10-18 13:50:02.887  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRRegisterNotify End
+2024-10-18 13:50:02.888  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  curStatus=start,setStatus=recording
+2024-10-18 13:50:02.888  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  setStatus success=recording
+2024-10-18 13:50:02.856  2381-2381  lytek.voicedemo         com.iflytek.voicedemo                W  type=1400 audit(0.0:672): avc: denied { search } for name="net" dev="sysfs" ino=5058 scontext=u:r:untrusted_app:s0:c154,c256,c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0 app=com.iflytek.voicedemo
+2024-10-18 13:50:02.976  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrStatusCB
+2024-10-18 13:50:02.976  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrStatusCB AttachCurrentThread
+2024-10-18 13:50:02.976  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrStatusCB get sessionID chararray
+2024-10-18 13:50:02.976  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrStatusCB get param2 bytearray
+2024-10-18 13:50:02.976  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrStatusCB CallVoidMethod
+2024-10-18 13:50:02.976  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrStatusCB DetachCurrentThread
+2024-10-18 13:50:03.710  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrErrorCB
+2024-10-18 13:50:03.710  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrErrorCB AttachCurrentThread
+2024-10-18 13:50:03.710  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrErrorCB get sessionID chararray
+2024-10-18 13:50:03.710  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrErrorCB get detail chararray
+2024-10-18 13:50:03.710  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrErrorCB CallVoidMethod
+2024-10-18 13:50:03.710  2381-6688  MscSpeechLog            com.iflytek.voicedemo                D  clear all message
+2024-10-18 13:50:03.711  2381-6688  MscSpeechLog            com.iflytek.voicedemo                D  curStatus=recording,setStatus=exiting
+2024-10-18 13:50:03.711  2381-6688  MscSpeechLog            com.iflytek.voicedemo                D  setStatus success=exiting
+2024-10-18 13:50:03.711  2381-6688  MSC_LOG                 com.iflytek.voicedemo                D  JNI_IsrErrorCB DetachCurrentThread
+2024-10-18 13:50:03.714  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  onSessionEnd
+2024-10-18 13:50:03.715  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  stop record
+2024-10-18 13:50:03.721  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRSetParam Begin
+2024-10-18 13:50:03.721  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRSetParam End
+2024-10-18 13:50:03.721  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  sessionEnd enter 
+2024-10-18 13:50:03.722  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRSessionEnd Begin
+2024-10-18 13:50:03.729  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  QISRSessionEnd End
+2024-10-18 13:50:03.732  2381-6939  MSC_LOG                 com.iflytek.voicedemo                D  DeleteGlobalRef g_isrCbData.m_obj
+2024-10-18 13:50:03.732  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  sessionEnd leavel:true time:11
+2024-10-18 13:50:03.732  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  curStatus=exiting,setStatus=exited
+2024-10-18 13:50:03.732  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  setStatus success=exited
+2024-10-18 13:50:03.737  2381-6943  MscSpeechLog            com.iflytek.voicedemo                D  release record begin
+2024-10-18 13:50:03.791  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  clear all message
+2024-10-18 13:50:03.791  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  RecognizerListener#onEnd
+2024-10-18 13:50:03.794  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  start abandon audio focus
+2024-10-18 13:50:03.797  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  clear all message
+2024-10-18 13:50:03.797  2381-6939  MscSpeechLog            com.iflytek.voicedemo                D  quit current Msc Handler thread
+2024-10-18 13:50:03.955  2381-6943  MscSpeechLog            com.iflytek.voicedemo                D  release record over
